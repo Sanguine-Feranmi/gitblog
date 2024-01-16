@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { BlogpageComponent } from './blogpage/blogpage.component';
+import { BlogpageComponent } from './components/blogpage/blogpage.component';
 
 export const routes: Routes = [
     {path:'', component:HomeComponent},

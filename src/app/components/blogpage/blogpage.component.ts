@@ -1,7 +1,7 @@
 import { NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { BlogPostService } from '../services/blog-post/blog-post.service';
+import { BlogPostService } from '../../services/blog-post/blog-post.service';
 
 @Component({
   selector: 'app-blogpage',
