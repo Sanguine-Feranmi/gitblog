@@ -1,0 +1,9 @@
+<div class="">
+    <div class="flex flex-wrap justify-between mb-2 " >
+        <div class="bg-white p-4 mb-4 rounded shadow-md w-[30%] md:w-48 lg:w-1/3 border border-gray-700" *ngFor="let blog of blogs" >
+          <h2 class="text-lg font-bold mb-2">{{ blog.title }}</h2>
+          <p class="text-gray-600">{{ blog.body }}</p>
+          <button class="bg-blue-600 p-2 rounded" [routerLink]="['/blog',blog.id]" > read more ></button>
+        </div>
+      </div> 
+</div>
